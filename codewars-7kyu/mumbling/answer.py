@@ -1,4 +1,5 @@
 # First solution 
+s = "abcd"
 def accum(s):
     result = []
     for i in range(len(s)):
@@ -12,6 +13,6 @@ def accum(s):
     return "-".join(result)
 
 # Second solution 
-
+s = "abcd"
 def accum(s):
     return '-'.join((a * i).title() for i, a in enumerate(s, 1))
